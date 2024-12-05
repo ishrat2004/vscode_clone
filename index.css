@@ -1,0 +1,202 @@
+body{ 
+background-color: #0e0e0e; 
+}
+.toplink{ 
+ color: #9ba3b4; 
+ cursor: pointer; 
+ padding-left:20px;
+ font-size:15;
+ font-weight:550;
+}
+.toplink:hover{ 
+     color:white;
+}
+.top_bar{ 
+    color:white ; 
+    background-color: #0e0e0e;
+    padding-top:5px ;
+    padding-left:100px; 
+    padding-right: 100px;
+    display: flex;
+    justify-content:space-between;
+    position:fixed;
+    height:50px;
+}
+.search_input{ 
+    padding-top: 5px;
+    text-decoration-thickness: 20px; 
+    border:solid;
+    background-color: rgba(255, 255, 255, 0.04);
+    color:#0e0e0e;
+    border-width: 1px; 
+    border-color: rgba(255,255,255,0.12);
+    border-radius: 5%;
+    margin-right:5px;
+    margin-top: 4px;
+}
+.download_button{ 
+    background-color: #0078d4;
+    width:75px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right:5px;
+    padding-left:5px;
+    border-radius: 5px;
+    cursor : pointer;
+    border-width: 0px;
+}
+.banner{ 
+    color:#9ba3b4;
+    /* text-emphasis-color: grey;
+    */
+    padding-top:15px;
+
+} 
+.ai_and_image{ 
+   display: flex; 
+   justify-content: space-between;
+   padding-top:25px;
+   padding-left:75px; 
+   padding-right:20px;
+
+}
+.download_for_windows{ 
+    background-color: #0078d4;
+    border:rgba(255, 255, 255, 0.3); 
+    cursor: pointer;
+    width:250px; 
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    border-radius:5%;
+}
+.try_github_copilot{ 
+    background-color:rgba(255, 255, 255, 0.1);
+    border:rgba(255, 255, 255, 0.3); 
+    cursor:pointer;
+    width:250px; 
+    height: 50px;
+    color: #e9eaeb;
+    font-size: 20px;
+    font-weight: 400px;
+    border-radius:5%;
+    margin-left:20px;
+   
+} 
+.code_with_github_copilot{ 
+   display:flex;
+   justify-content: space-between; 
+   padding-left:75px; 
+   padding-right:75px;
+
+} 
+.javascript{ 
+    display:flex; 
+    margin-right: 150px;
+} 
+.typescript{ 
+    display:flex; 
+    margin-right: 150px;
+}
+.python{ 
+    display:flex;
+}
+.lang_first_row{ 
+    display: flex;
+     
+} 
+.cshark { 
+    display:flex; 
+    margin-right: 207px;
+} 
+.cpp{ 
+    display:flex; 
+    margin-right: 207px;
+}
+.html{ 
+    display:flex;
+}
+.lang_second_row{ 
+    display: flex;
+}
+.java { 
+    display:flex; 
+    margin-right: 190px;
+} 
+.json{ 
+    display:flex; 
+    margin-right: 212px;
+}
+.php{ 
+    display:flex;
+}
+.lang_third_row{ 
+    display: flex;
+}
+.markdown { 
+    display:flex; 
+    margin-right: 135px;
+} 
+.powershell{ 
+    display:flex; 
+    margin-right: 155px;
+}
+.yaml{ 
+    display:flex;
+}
+.lang_fourth_row{ 
+    display: flex;
+}
+.code_in_any_lang{ 
+    display:flex;
+    justify-content: space-between;
+    padding-left:75px; 
+    padding-right:75px;
+}
+.feature{ 
+    background-color: rgba(255, 255, 255, 0.04); 
+    width:280px;
+    height:230px;
+    border-color: rgba(255,255,255,0.12);
+    border:solid;
+    text-align: left;
+    padding-left:20px;
+    border-radius:5%;
+    cursor:pointer;
+    margin-right: 4px;
+
+}
+.feature:hover{ 
+    background-color: rgba(255, 255, 255, 0.08); 
+    border-color: rgba(255,255,255,0.12);
+    border-width: 1px;
+}
+.icon{ 
+    background-color:rgba(255,255,255,0.07);
+    width:35px;
+    height:35px;
+    border:rgba(255, 255, 255, 0.12);
+    padding-left:15px; 
+    padding-top:15px;
+    border-radius: 10%;
+}
+.all_features{ 
+    display:flex; 
+    justify-content: space-between;
+    padding-left:75px; 
+    padding-right:75px; 
+}
+.footer_last{ 
+    color: white; 
+    height:250px; 
+    background-color: #0e0e0e;
+    padding-left:75px;
+}
+.footer_first_row{ 
+    padding-top:100px;
+    display:flex; 
+    margin-bottom: 25px;
+    
+}
